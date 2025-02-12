@@ -101,6 +101,28 @@
       "config": {},
       "routes": [],
       "targets": {}
+    },
+    "extends": {
+      "extensions": {
+        "sap.ui.controllerExtensions": {
+          "sap.suite.ui.generic.template.ListReport.view.ListReport": {
+            "controllerName": "listrepvoo2.ext.controller.XMLButtonExtension",
+            "sap.ui.generic.app": {
+              "MyEntitySet": {
+                "EntitySet": "VooSet",
+                "Actions": {
+                  "showMessage": {
+                    "id": "btnShowMessage",
+                    "text": "Show Message",
+                    "press": "onShowMessagePress",
+                    "global": true
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
     }
   },
   "sap.ui.generic.app": {
