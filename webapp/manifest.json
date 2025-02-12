@@ -111,10 +111,10 @@
               "MyEntitySet": {
                 "EntitySet": "VooSet",
                 "Actions": {
-                  "showMessage": {
-                    "id": "btnShowMessage",
-                    "text": "Show Message",
-                    "press": "onShowMessagePress",
+                  "printXML": {
+                    "id": "XMLPrintAction",
+                    "text": "Print XML",
+                    "press": "onPrintXMLPress",
                     "global": true
                   }
                 }
