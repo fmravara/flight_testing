@@ -34,7 +34,7 @@
 sap.ui.define([
   "sap/m/MessageToast",
   "sap/ui/core/util/File"
-], function (MessageToast, File) {
+],(MessageToast, File) => {
   "use strict";
 
   return {
