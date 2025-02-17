@@ -44,7 +44,7 @@ sap.ui.define([
       MessageToast.show("XML file downloaded successfully!");
     },
     generateXMLContent() {
-      // This is a simple example XML structure
+      
       const xmlString =
         '<?xml version="1.0" encoding="UTF-8"?>\n' +
         '<root>\n' +
